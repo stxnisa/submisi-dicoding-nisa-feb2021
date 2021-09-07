@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+ 
+h2, h3 {
+    font-family: 'Nunito';
+    color: #33f67d
+}
+
+h4 {
+    font-family: 'Nunito';
+    text-align: center;
+    color: #000000
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #2a8e50;
+}
+
+.header-image {
+    width: 100%;
+    max-height: 50%;
+    object-position: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 30px;
+    max-height: 30px;
+    object-position: center;
+} 
+
+nav {
+    font-family: 'Nunito';
+    background-color: #40c171;
+    padding: 2px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: 200;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    box-align: center;
+    align-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    box-align: center;
+    align-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    box-align: center;
+    align-content: center;
+}
+
+.box {
+    flex-grow: 1;
+    align-content: center;
+}
+
+.featured-image {
+    width: 80%;
+    object-position: center;
+    align-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .featured-image {
+        padding: 10px;
+    }
+}
+
+.profile header {
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+}
+
+#content {
+    float: right;
+    width: 75%;
+}
+
+aside {
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #40c171;
+    text-align: center;
+    font-weight: bold;
+}
